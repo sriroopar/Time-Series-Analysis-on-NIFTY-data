@@ -1,2 +1,3 @@
 # Time-Series-Analysis-on-NIFTY-data-
-An EDA oriented project on Time Series Analysis of NIFTY data.
+
+This project is my practice work on understanding time series data and forecasting predictions . I have worked on NIFTY (National stock exchange FIFTY) data as it holds a significant trend of change across time. Nifty is the Index used by the National Stock Exchange and is made by the combination of National and Fifty (Nifty). Unlike Sensex, Nifty collects the sample of 50 performing and luring stocks to determine the market trends.Nifty picks stocks from different sectors. Some of these include the stocks from the sectors such as IT, Consumer Goods, financial services, automobiles, telecommunication, etc.
