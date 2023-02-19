@@ -43,7 +43,4 @@ This project is my practice work on understanding time series data and forecasti
   The following techniques are used to forecast Close price of NIFTY 50 stock.
      <li>ARIMA using the dependent variable only.
      <li>ARIMAX using the dependent variable and exogenous features and fit the model.
-     <li>Facebook Prophet
-     
-  ARIMA, ARIMAX, and FacebookProphet achieved MAPE of 11%, 8.62% and 8.45% for the three models respectively on the test data.
   </p>
