@@ -8,14 +8,16 @@ Depending on the appropriate quality of the prediction, the duration of the fore
 
 Forecasting : The science of forecasting is the art of predicting the future. Businesses can use historical data to consider patterns, make predictions about what will happen and when, and then incorporate the knowledge into their future plans for everything from product demand to marketing.</p>
 
+# Approach
+
 <p>To solve such problem we can have two kinds of approaches
     <li>Time Series Approach</li>
     <li>Machine Learning Approach</li></p>
   
-<p><b>Data collection and preparation</b>:</p>
+# Data collection and preparation
  20 years of data  is collected from NSE website and it consists of four features such as high, low, open and close.
 
-<p>Description of columns in the file:</p>
+# Description of columns in the file
 
   <li>Date — Date of trade
   <li>Open — The open is the starting period of trading on a securities exchange or organized over-the-counter market.
@@ -24,14 +26,14 @@ Forecasting : The science of forecasting is the art of predicting the future. Bu
   <li>Close — The close is a reference to the end of a trading session in the financial markets when the markets close for the day.
 
 
-<p><b>EDA</b>:
+# EDA
  The primary goal of EDA is to support the analysis of data prior to making any conclusions. It may aid in the detection of apparent errors, as well as a deeper understanding of data patterns, the detection of outliers or anomalous events, and the discovery of interesting relationships between variables.
     <li>There was a drastic drop in stock prices in the 2007-2009 period.This  can be attributed to the Great Recession that happened during this period.
     <li>Also, there is a drop in stock prices in the year 2016. This can be attributed to Demonetisation drive by the central government.
     <li>Again ,there is a drastic drop in stock prices in 2020. This is due to the global breakdown amid coronavirus pandemic induced lockdown in India.
     <li>By the end of 2020, the stock price started rising.This can be attributed to the lifting of lockdown in the country and across the world.
  
-  <p><b>Feature Engineering</b>:
+# Feature Engineering
   The features we have are low in number and we don't have that data of the day when we actually want to do prediction. 
   So here comes the importance of feature engineering. Features are created using  the stock  data features based on
       <li>Lag features
@@ -40,8 +42,7 @@ Forecasting : The science of forecasting is the art of predicting the future. Bu
       <li>Volatility
   </p> 
   
-  <p><b>Building Time Series Forecasting model</b>:
+  # Building Time Series Forecasting model
   The following techniques are used to forecast Close price of NIFTY 50 stock.
      <li>ARIMA using the dependent variable only.
      <li>ARIMAX using the dependent variable and exogenous features and fit the model.
-  </p>
