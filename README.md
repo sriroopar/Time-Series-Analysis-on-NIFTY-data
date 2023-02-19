@@ -2,11 +2,11 @@
 
 This project is my practice work on understanding time series data and forecasting predictions . I have worked on NIFTY (National stock exchange FIFTY) data as it holds a significant trend of change across time. Nifty is the Index used by the National Stock Exchange and is made by the combination of National and Fifty (Nifty). Unlike Sensex, Nifty collects the sample of 50 performing and luring stocks to determine the market trends.Nifty picks stocks from different sectors. Some of these include the stocks from the sectors such as IT, Consumer Goods, financial services, automobiles, telecommunication, etc. I have used ARIMA model to forecast patterns and trends in the data accross different industrial spectrums.
 
-<p>Time series means that a series of data points indexed in time order. The following are some of the most frequently asked questions: what will happen with our metrics in the next day/week/month/etc., how many users will instal our app, how much time will they spend online, how many actions will users complete, and so on. We can address these prediction tasks in a variety of ways, depending on the situation.
+Time series means that a series of data points indexed in time order. The following are some of the most frequently asked questions: what will happen with our metrics in the next day/week/month/etc., how many users will instal our app, how much time will they spend online, how many actions will users complete, and so on. We can address these prediction tasks in a variety of ways, depending on the situation.
 
-<p>Depending on the appropriate quality of the prediction, the duration of the forecast period, and, of course, the amount of time we have to select features and tune parameters to achieve desired results, we can approach these prediction tasks in a variety of ways.</p>
+Depending on the appropriate quality of the prediction, the duration of the forecast period, and, of course, the amount of time we have to select features and tune parameters to achieve desired results, we can approach these prediction tasks in a variety of ways.</p>
 
-<p>Forecasting : The science of forecasting is the art of predicting the future. Businesses can use historical data to consider patterns, make predictions about what will happen and when, and then incorporate the knowledge into their future plans for everything from product demand to marketing.</p>
+Forecasting : The science of forecasting is the art of predicting the future. Businesses can use historical data to consider patterns, make predictions about what will happen and when, and then incorporate the knowledge into their future plans for everything from product demand to marketing.</p>
 
 <p>To solve such problem we can have two kinds of approaches
     <li>Time Series Approach</li>
@@ -16,6 +16,7 @@ This project is my practice work on understanding time series data and forecasti
  20 years of data  is collected from NSE website and it consists of four features such as high, low, open and close.
 
 <p>Description of columns in the file:</p>
+
   <li>Date — Date of trade
   <li>Open — The open is the starting period of trading on a securities exchange or organized over-the-counter market.
   <li>High — Highest price at which a stock traded during the course of the trading day.
